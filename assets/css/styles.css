@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary: #1ebfc1;
+}
+/* Common */
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    min-width: 186px;
+    line-height: 68px;
+    border-radius: 14px;
+    background: var(--primary);
+    font-weight: 600;
+    font-size: 1.8rem;
+    padding: 0 41px;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+/* Header */
+.header {
+    color: #ffffff;
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 52px 0 8px;
+}
+
+.header.fixed {
+    position: sticky;
+    z-index: 1;
+    top: -28px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar a {
+    padding: 8px 21px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #2f3a3b;
+}
+
+.navbar a.click,
+.navbar a:hover {
+    /* font-weight: 600; */
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+/* Action */
+.header .sign-up {
+    width: 108px;
+    height: 48px;
+    padding: 12px 23px;
+    border: 1px solid var(--primary);
+    border-radius: 6px;
+    font-weight: 600;
+    font-size: 1.6rem;
+    text-align: center;
+    color: var(--primary);
+}
+
+.header .sign-in {
+    margin-right: 24px;
+    font-size: 1.6rem;
+    text-align: center;
+    color: #494949;
+}
+/* Hero */
+.hero {
+    padding-bottom: 79px;
+    background: #ffffff;
+}
+
+.hero .body {
+    display: flex;
+    padding-top: 51px;
+    justify-content: space-between;
+}
+
+.hero-content {
+    margin-top: 93px;
+    width: 458px;
+}
+
+.hero-content .note {
+    font-size: 1.4rem;
+    color: #767e7e;
+}
+
+.hero-content .heading {
+    margin-top: 18px;
+    font-weight: 700;
+    font-size: 6.2rem;
+    line-height: 1.16;
+    color: #0d1111;
+}
+
+.hero-content .desc {
+    margin-top: 46px;
+    width: 374px;
+    font-size: 1.8rem;
+    line-height: 1.78;
+    color: #9da6a5;
+}
+
+.hero-content .group-action a {
+    margin-top: 52px;
+}
+
+.hero-content .play {
+    margin-left: 50px;
+    width: 62px;
+    height: 62px;
+    background: #ffffff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.hero-right {
+}
+
+.hero-right .hero {
+    width: 576px;
+    height: 631px;
+    object-fit: cover;
+}
