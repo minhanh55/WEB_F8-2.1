@@ -460,3 +460,125 @@ a {
     font-size: 1.8rem;
     color: #767e7e;
 }
+
+/* Feedback */
+.feedback {
+    padding: 264px 0 130px;
+}
+
+.feedback .content {
+    display: flex;
+}
+
+.feedback .info {
+    width: 36%;
+    margin-top: 37px;
+}
+
+.feedback .info .desc {
+    margin-top: 27px;
+    font-size: 3.2rem;
+    line-height: 1.5;
+    color: #5d6564;
+}
+
+.feedback .info .name {
+    display: flex;
+    align-items: center;
+    gap: 0 5px;
+    margin-top: 33px;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #767e7e;
+}
+
+.feedback .info .name::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback .info .name strong {
+    font-weight: 500;
+    font-size: 1.6rem;
+    color: #070707;
+}
+
+.feedback .info .control {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: start;
+    gap: 0 30px;
+    margin-top: 52px;
+}
+
+.feedback .info .control .next {
+    display: flex;
+    align-items: center;
+    margin-bottom: 37px;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #ffffff;
+    background: #2ac9bf;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.feedback .info .control .next:hover {
+    cursor: pointer;
+}
+
+.feedback .group-avatar {
+    position: relative;
+    margin-left: 72px;
+    width: 58%;
+}
+
+.feedback .group-avatar .avatar {
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.feedback .group-avatar .avatar:nth-child(1) {
+    left: 144px;
+    width: 92px;
+    height: 92px;
+}
+
+.feedback .group-avatar .avatar:nth-child(2) {
+    top: 9px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+
+.feedback .group-avatar .avatar:nth-child(3) {
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+}
+
+.feedback .group-avatar .avatar:nth-child(n + 4) {
+    width: 78px;
+    height: 78px;
+}
+
+.feedback .group-avatar .avatar:nth-child(4) {
+    left: 0;
+    bottom: 145px;
+}
+
+.feedback .group-avatar .avatar:nth-child(5) {
+    bottom: 0;
+    left: 212px;
+}
+
+.feedback .group-avatar .avatar:nth-child(6) {
+    right: 32px;
+    bottom: 29px;
+}
