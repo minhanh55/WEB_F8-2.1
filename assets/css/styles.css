@@ -41,6 +41,19 @@ a {
     color: #ffffff;
     cursor: pointer;
 }
+
+.heading {
+    font-weight: 700;
+    font-size: 4.2rem;
+    line-height: 1.33;
+    color: #0d1111;
+}
+
+.desc {
+    font-size: 1.6rem;
+    line-height: 1.69;
+    color: #9da6a5;
+}
 /* Header */
 .header {
     background: #ffffff;
@@ -265,4 +278,185 @@ a {
 
 .content3 .avatar:first-child {
     margin-left: 0;
+}
+
+/* Features */
+.features {
+    padding: 130px 0 0;
+}
+
+.features .title {
+    width: 50%;
+}
+
+.features .title .note {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+}
+
+.features .title .heading {
+    margin-top: 18px;
+}
+
+.features .title .desc {
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+.features .list-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 250px;
+    margin-top: 80px;
+}
+
+.features .item {
+    width: 33.33%;
+}
+
+.features .item .title {
+    margin-top: 26px;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d1111;
+}
+
+.features .item .desc {
+    margin-top: 16px;
+}
+
+/* Popular */
+.popular {
+    padding: 130px 0 0;
+}
+
+/* Popular-top */
+.popular .popular-top .note {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #767e7e;
+}
+
+.popular-top .heading {
+    margin-top: 18px;
+}
+
+.popular-top .desc {
+    margin-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.popular-top .desc p {
+    width: 45%;
+    font-size: 1.8rem;
+    line-height: 1.78;
+}
+
+.popular-top .desc a {
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-decoration-line: underline;
+    color: #1ebfc1;
+}
+
+.popular-top .list-item {
+    display: flex;
+    margin-top: 79px;
+    gap: 0 47px;
+}
+
+.popular-top .list-item img {
+    width: 359px;
+    height: 393px;
+    object-fit: cover;
+    background: #d0efed;
+    border-radius: 8px;
+}
+
+.popular-top .list-item .item {
+    position: relative;
+}
+.popular-top .list-item img:hover {
+    opacity: 0.35;
+}
+
+.popular-top .list-item .content {
+    position: absolute;
+    top: 322px;
+    left: 17px;
+    padding: 18px 82px 29px 25px;
+    background: #ffffff;
+    box-shadow: 0px 16px 90px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+
+.popular-top .list-item .content .title {
+    font-weight: 700;
+    font-size: 2.2rem;
+    color: #0d1111;
+}
+
+.popular-top .list-item .content .free {
+    margin: 16px 0 6px;
+    font-size: 1.6rem;
+    color: #767e7e;
+}
+
+.popular-top .list-item .content span {
+    font-weight: 700;
+    color: #0d1111;
+}
+
+.popular-top .list-item .content .desc,
+.popular-top .list-item .content .number {
+    font-size: 1.4rem;
+    color: #9da6a5;
+}
+
+.popular-top .list-item .content .number {
+    display: flex;
+    gap: 0 10px;
+    margin-top: 18px;
+}
+
+.popular-top .list-item .content .value {
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+}
+
+.popular-top .list-item .content .value::before {
+    content: "";
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #1ebfc1;
+}
+
+/* Popular-bottom */
+.popular-bottom {
+    margin-top: 389px;
+}
+
+.popular-bottom .list-item {
+    display: flex;
+    gap: 0 200px;
+    text-align: center;
+    justify-content: center;
+}
+
+.popular-bottom .item .value {
+    font-weight: 700;
+    font-size: 6.2rem;
+    color: #0d1111;
+}
+
+.popular-bottom .item .desc {
+    margin-top: 11px;
+    font-size: 1.8rem;
+    color: #767e7e;
 }
