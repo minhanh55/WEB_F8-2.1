@@ -4,6 +4,7 @@
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -581,4 +582,99 @@ a {
 .feedback .group-avatar .avatar:nth-child(6) {
     right: 32px;
     bottom: 29px;
+}
+
+/* Start */
+.start {
+    background: #def6f5;
+}
+
+.start .body {
+    display: flex;
+    align-items: center;
+    gap: 0 410px;
+    padding: 76px 0 88px;
+}
+
+.start .content {
+    width: 36%;
+}
+
+.start .content .heading {
+    color: #070707;
+}
+
+.start .content .desc {
+    margin-top: 18px;
+    font-size: 18px;
+    color: #767e7e;
+}
+
+.start .btn-start {
+    width: 186px;
+    height: 68px;
+    border: none;
+}
+
+/* Footer */
+.footer {
+    padding: 130px 0 50px;
+}
+
+.footer .body {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.footer .title {
+    font-weight: 500;
+    font-size: 1.8rem;
+    color: #2e2e2e;
+}
+
+.footer .list {
+    margin-top: 26px;
+}
+
+.footer .list .note {
+    margin-top: 20px;
+}
+
+.footer .list .note a {
+    font-size: 16px;
+    color: #535353;
+}
+
+.footer .list-social {
+    margin-top: 18px;
+}
+
+.footer .list-social .social {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.footer .social a {
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: #535353;
+}
+
+.footer .social .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background: #ffffff;
+}
+
+.footer .desc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
 }
